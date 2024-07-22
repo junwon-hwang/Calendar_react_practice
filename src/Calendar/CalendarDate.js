@@ -1,7 +1,8 @@
-import React from 'react'
+import React  from 'react'
 import styles from '../Calendar/CalendarDate.module.scss'
 
 const CalerdatDate = () => {
+
   const daysOfWeek = ['일', '월', '화', '수', '목', '금', '토'];
 
   return (

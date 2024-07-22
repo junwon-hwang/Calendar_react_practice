@@ -1,10 +1,9 @@
-/* Calendar.module.scss */
-html{
+html, body {
   width: 55%;
   height: 55%;  
 }
 
-button{
+button {
   width: 30px;
   height: 30px;
   margin-right: 5px;
@@ -12,13 +11,14 @@ button{
   background: none;
   border: none;
   cursor: pointer;
-  font-size: 25px;
+  font-size: 15px;
 }
 
-.title{
+.title {
   display: flex;
   justify-content: space-between;
   font-size: 25px;
+  padding-bottom: 10px;
 }
 
 .container {
@@ -26,15 +26,14 @@ button{
   flex-wrap: wrap;
   width: 640px;
   justify-content: flex-start;
- 
 }
 
 .item {
-  width: 88.22px; 
-  height: 70px;
+  width: 150px; 
+  height: 140px;
   border: 1px solid black;
-  margin: 1px; 
-  box-sizing: border-box; 
+  margin: 1px; /* 1px의 간격을 추가 */
+  box-sizing: border-box; /* padding과 border를 포함하도록 설정 */
   display: flex;
   justify-content: center;
   align-items: center;
